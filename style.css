@@ -2,15 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
-.all-items{
-    background-color: #efd4da;
+
+.all-items {
+    background-color: #efd4da47;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    text-align:left;
+    text-align: left;
     padding: 30px;
+    gap: 20px;
 }
+
 .shop-header-left {
     margin-left: 40px;
     border: 2px solid;
@@ -44,37 +47,94 @@
     padding: 5px;
     color: white;
 }
-.header-para-left{
-    
-}
-.header-img{
-   /* width: 50%;
+
+.header-para-left {}
+
+.header-img {
+    /* width: 50%;
    height: 100vh; */
 }
 
 /* This is discount section */
 
-.discount-container{
+.discount-container {
     height: 100vh;
+    width: auto;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    /* align-items: center;
+    justify-content: space-around; */
+
+}
+
+.discount-para {
+    border: 1px solid;
+    width: 50%;
+
     text-align: center;
-    /* text-align:left; */
-    padding: 30px;
-    
+    align-items: center;
+    justify-content: space-between;
+
 }
-.discount-para{
+
+.discount-img {
+    border: 1px solid;
     width: 50%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
 }
-.lorem{
-    width: 50%;
+
+.deal {
+    line-height: 20px;
+    font-size: 50px;
+}
+
+.deal-para {
+    line-height: 20px;
+    font-size: 25px;
+    color: #272727;
+}
+
+/* this is insta section */
+.insta {
+    height: 100;
+    border: 2px solid;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.section header {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-img {
+    border: 2px solid;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+.insta-para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    /* font-weight: 400; */
+    line-height: 30px;
 }
 
 /* this is footer section */
 
-.footer-container{
-    /* height: 400px; */
+.footer-container {
+    height: 400px;
     background-color: black;
     color: white;
     /* display: flex; */
@@ -82,11 +142,29 @@
     justify-content: center;
     align-items: center;
 }
-.shop-name{
+
+.shop-name {
+    font-size: 50px;
 }
-.shop{
+
+.shop {
     color: #de6983;
 }
-.footer-para{
 
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer-end {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
 }
