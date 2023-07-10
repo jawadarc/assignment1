@@ -2,20 +2,91 @@
     margin: 0px;
     padding: 0px;
 }
-
-.shop-header {
+.all-items{
+    background-color: #efd4da;
     height: 100vh;
-    background: rgba(229, 84, 115, 0.10);
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align:left;
+    padding: 30px;
+}
+.shop-header-left {
+    margin-left: 40px;
+    border: 2px solid;
+    /* height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    text-align: left;
+    padding: 10px;
+    border: 3px solid; */
 }
 
 .header-title {
     font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.header-info {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.header-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    /* line-height: 30px; */
 }
 
 .btn {
-    background: #be7888;
+    background: #de6983;
     border-radius: 5px;
     padding: 5px;
     color: white;
+}
+.header-para-left{
+    
+}
+.header-img{
+   /* width: 50%;
+   height: 100vh; */
+}
+
+/* This is discount section */
+
+.discount-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    /* text-align:left; */
+    padding: 30px;
+    
+}
+.discount-para{
+    width: 50%;
+}
+.lorem{
+    width: 50%;
+}
+
+/* this is footer section */
+
+.footer-container{
+    /* height: 400px; */
+    background-color: black;
+    color: white;
+    /* display: flex; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.shop-name{
+}
+.shop{
+    color: #de6983;
+}
+.footer-para{
+
 }
