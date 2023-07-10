@@ -1,7 +1,21 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-.header-title{
-    font-size: 88px;
+
+.shop-header {
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+}
+
+.header-title {
+    font-size: 80px;
+}
+
+.btn {
+    background: #be7888;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
 }
