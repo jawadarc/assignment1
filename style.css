@@ -155,7 +155,7 @@
 }
 .deals-container{
     background-color: rgb(228, 170, 227);
-    margin-bottom: 20px;
+    position: relative;
     background-image: url(./images/Rectangle\ 9.png);
     background-repeat: no-repeat;
     height: 50vh;
