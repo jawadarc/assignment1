@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Lato;
 }
 
 .all-items {
@@ -14,14 +15,8 @@
     gap: 20px;
 }
 
-.shop-header-left {
+.shop-header-container {
     margin-left: 40px;
-    /* border: 2px solid; */
-    /* height: 100vh;
-    background: rgba(229, 84, 115, 0.10);
-    text-align: left;
-    padding: 10px;
-    border: 3px solid; */
 }
 
 .header-title {
@@ -44,6 +39,9 @@
     width: 600px;
     /* line-height: 30px; */
 }
+.header-img{
+    position: relative;
+}
 
 .btn {
     background: #de6983;
@@ -64,16 +62,17 @@
 /* This is discount section */
 
 .discount-container {
-    height: 100vh;
+    height: 700px;
     width: auto;
     display: flex;
+    align-items: center;
+    background-color: #dcacb539;
     /* align-items: center;
     justify-content: space-around; */
 
 }
 
 .discount-para{
-    border: 1px solid;
     width: 50%;
     padding: 40px;
     text-align: center;
@@ -84,8 +83,9 @@
 }
 
 .discount-img {
-    border: 1px solid;
+    width: 300px;
     width: 50%;
+    height: 400px;
     text-align: center;
     align-items: center;
     justify-content: space-between;
@@ -156,7 +156,7 @@
 .deals-container{
     background-color: rgb(228, 170, 227);
     margin-bottom: 20px;
-    /* background-image: url(../assignment1/images/Rectangle\ 9.png); */
+    background-image: url(./images/Rectangle\ 9.png);
     height: 50vh;
     width: 70%;
     margin: auto;
