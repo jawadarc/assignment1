@@ -16,7 +16,7 @@
 
 .shop-header-left {
     margin-left: 40px;
-    border: 2px solid;
+    /* border: 2px solid; */
     /* height: 100vh;
     background: rgba(229, 84, 115, 0.10);
     text-align: left;
@@ -25,8 +25,10 @@
 }
 
 .header-title {
-    font-size: 80px;
+    font-size: 60px;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .header-info {
@@ -38,13 +40,17 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 20px;
+    width: 600px;
     /* line-height: 30px; */
 }
 
 .btn {
     background: #de6983;
     border-radius: 5px;
-    padding: 5px;
+    font-family: Lato;
+    border: none;
+    padding: 10px;
     color: white;
 }
 
@@ -66,13 +72,14 @@
 
 }
 
-.discount-para {
+.discount-para{
     border: 1px solid;
     width: 50%;
-
+    padding: 40px;
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    display: block;
 
 }
 
@@ -84,41 +91,57 @@
     justify-content: space-between;
 }
 
-.deal {
+.hot-deal {
     line-height: 20px;
     font-size: 50px;
+    margin-bottom: 30px;
 }
 
 .deal-para {
     line-height: 20px;
     font-size: 25px;
     color: #272727;
+    margin-bottom: 30px;
 }
 
 /* this is insta section */
-.insta {
-    height: 100;
-    border: 2px solid;
+.insta-container{
+    height: 80vh;
+    background-color: rgb(170, 233, 233);
     width: 70%;
     margin: auto;
+
+}
+.insta {
+    
+    /* border: 2px solid; */
+   
     text-align: center;
+    margin-top: 20px;
 }
 
-.section header {
+.section-header{
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    margin-bottom: 30px;
 }
 
-.insta-img {
+.insta-images{
     border: 2px solid;
-    height: 300px;
+    /* height: 300px; */
     width: 80%;
     margin: auto;
+    margin-top: 20px;
+}
+.insta-img{
+    display: flex;
+    /* height: 300px; */
+    border: 0.5px solid;
 }
 
 .insta-para {
@@ -130,16 +153,33 @@
     /* font-weight: 400; */
     line-height: 30px;
 }
+.deals-container{
+    background-color: rgb(228, 170, 227);
+    margin-bottom: 20px;
+    /* background-image: url(../assignment1/images/Rectangle\ 9.png); */
+    height: 50vh;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.email{
+    text-align: center;
+    margin-top: 10px;
+}
+.email-input{
+    width: 500px;
+    height: 35px;
+}
 
 /* this is footer section */
 
 .footer-container {
-    height: 400px;
+    /* height: 400px; */
     background-color: black;
     color: white;
-    /* display: flex; */
     text-align: center;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
 }
 
