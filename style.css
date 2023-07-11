@@ -61,7 +61,7 @@
 /* This is discount section */
 
 .discount-container {
-    height: 700px;
+    height: 60vh;
     width: auto;
     display: flex;
     align-items: center;
@@ -154,15 +154,16 @@
     line-height: 30px;
 }
 .deals-container{
-    background-color: rgb(228, 170, 227);
-    position: relative;
     background-image: url(./images/Rectangle\ 9.png);
     background-repeat: no-repeat;
+    background-position:center;
     height: 50vh;
     width: 70%;
     margin: auto;
     text-align: center;
+    padding-top: 300px;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 .email{
     text-align: center;
