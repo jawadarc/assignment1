@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 
 .all-items {
@@ -111,8 +111,6 @@
     /* background-color: rgb(170, 233, 233); */
     width: 70%;
     margin: auto;
-    display: block;
-
 }
 .insta {
     
@@ -138,7 +136,7 @@
     margin: auto;
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 .insta-img{
@@ -159,6 +157,7 @@
     background-color: rgb(228, 170, 227);
     margin-bottom: 20px;
     background-image: url(./images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
     height: 50vh;
     width: 70%;
     margin: auto;
@@ -172,6 +171,8 @@
 .email-input{
     width: 500px;
     height: 35px;
+    border: none;
+    border-radius: 3px;
 }
 
 /* this is footer section */
